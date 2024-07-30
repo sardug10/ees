@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="">
+    <div id="services">
       <div className="bg-gray-50">
         <h1 className="text-3xl py-6 text-center font-semibold">
           Our services
