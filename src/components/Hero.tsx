@@ -2,17 +2,18 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden">
+    <div className="flex  px-6 md:px-20  items-center justify-center bg-hero md:h-[90vh] overflow-hidden">
       <div className="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
         <div className="w-full md:w-1/2 lg:pr-32">
           <h2 className="text-4xl lg:text-5xl text-center md:text-left text-blue-900 leading-tight font-medium">
-            There’s a better way to talk with your customers.
+            Linking You Globally
           </h2>
           <h3 className="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-left text-gray-700 font-light tracking-wider leading-relaxed">
-            Help Scout is designed with your customers in mind. Provide email
-            and live chat with a personal touch, and deliver help content right
-            where your customers need it, all in one place, all for one low
-            price.
+            At Exhibition Excellence Solutions, we are driven by a passion for
+            perfection in every aspect of exhibition management. With a
+            leadership team comprising trade fair veterans, we have the
+            expertise and experience to navigate the intricate world of
+            international exhibitions seamlessly
           </h3>
           <div className="mt-10 flex flex-col sm:flex-row justify-center md:justify-start">
             <button className="w-full sm:w-40 px-4 py-3 rounded font-semibold text-md bg-blue-500 text-white border-2 border-blue-500">
