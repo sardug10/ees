@@ -1,4 +1,9 @@
 import React from "react";
+import s1 from "../assets/images/s1.jpeg";
+import s2 from "../assets/images/s2.jpeg";
+import s3 from "../assets/images/s3.jpeg";
+import s4 from "../assets/images/s4.jpeg";
+import s5 from "../assets/images/s5.jpeg";
 
 const Services = () => {
   return (
@@ -32,8 +37,8 @@ const Services = () => {
               </div>
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
-                  className="object-cover rounded-lg shadow-md"
-                  src="https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s1}
                   alt="About Us"
                 />
               </div>
@@ -53,8 +58,8 @@ const Services = () => {
               </div>
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
-                  className="object-cover rounded-lg shadow-md"
-                  src="https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s2}
                   alt="About Us"
                 />
               </div>
@@ -75,8 +80,8 @@ const Services = () => {
               </div>
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
-                  className="object-cover rounded-lg shadow-md"
-                  src="https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s3}
                   alt="About Us"
                 />
               </div>
@@ -95,8 +100,8 @@ const Services = () => {
               </div>
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
-                  className="object-cover rounded-lg shadow-md"
-                  src="https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s4}
                   alt="About Us"
                 />
               </div>
@@ -113,8 +118,8 @@ const Services = () => {
               </div>
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
-                  className="object-cover rounded-lg shadow-md"
-                  src="https://plus.unsplash.com/premium_photo-1661497675847-2075003562fd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s5}
                   alt="About Us"
                 />
               </div>
