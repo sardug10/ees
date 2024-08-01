@@ -3,7 +3,10 @@ import logo from "../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className="px-4 pt-16 border-t mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div
+      id="contact-us"
+      className="px-4 pt-16 border-t mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+    >
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3">
         {" "}
         <div className="sm:col-span-2">
@@ -34,17 +37,6 @@ const Footer = () => {
           <p className="text-base font-bold tracking-wide text-gray-900">
             Contacts
           </p>
-          <div className="flex">
-            <p className="mr-1 text-gray-800">Phone:</p>
-            <a
-              href="tel:850-123-5021"
-              aria-label="Our phone"
-              title="Our phone"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
-            >
-              850-123-5021
-            </a>
-          </div>
           <div className="flex flex-col">
             <p className="mr-1 text-gray-800">Emails:</p>
             <a
@@ -81,13 +73,35 @@ const Footer = () => {
             </a>
           </div>
           <div className="flex">
+            <p className="mr-1 text-gray-800">Desk phone:</p>
+            <a
+              href="tel:+91 129 4060309"
+              aria-label="Our phone"
+              title="Our phone"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              +91 129 4060309
+            </a>
+          </div>
+          <div className="flex">
+            <p className="mr-1 text-gray-800">Mobile & WhatsApp:</p>
+            <a
+              href="tel:+91 8742950309"
+              aria-label="Our phone"
+              title="Our phone"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              +91 8742950309
+            </a>
+          </div>
+          <div className="flex">
             <p className="mr-1 text-gray-800">Address:</p>
             <button
               aria-label="Our address"
               title="Our address"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              Blossom Green Society, Sector 63, Faridabad
+              Faridabad, India
             </button>
           </div>
         </div>

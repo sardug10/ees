@@ -24,6 +24,10 @@ const links: Link[] = [
     name: "Why choose us?",
     href: "#why-choose-us",
   },
+  {
+    name: "Contact us",
+    href: "#contact-us",
+  },
 ];
 
 const Nav = () => {
