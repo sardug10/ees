@@ -1,9 +1,9 @@
 import React from "react";
-import s1 from "../assets/images/s1.jpeg";
 import s2 from "../assets/images/s2.jpeg";
 import s3 from "../assets/images/s3.jpeg";
 import s4 from "../assets/images/s4.jpeg";
 import s5 from "../assets/images/s5.jpeg";
+import s6 from "../assets/images/s6.jpeg";
 
 const Services = () => {
   return (
@@ -38,7 +38,7 @@ const Services = () => {
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
-                  src={s1}
+                  src={s2}
                   alt="About Us"
                 />
               </div>
@@ -59,7 +59,7 @@ const Services = () => {
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
-                  src={s2}
+                  src={s3}
                   alt="About Us"
                 />
               </div>
@@ -81,7 +81,7 @@ const Services = () => {
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
-                  src={s3}
+                  src={s4}
                   alt="About Us"
                 />
               </div>
@@ -101,7 +101,7 @@ const Services = () => {
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
-                  src={s4}
+                  src={s5}
                   alt="About Us"
                 />
               </div>
@@ -119,7 +119,7 @@ const Services = () => {
               <div className="mx-auto w-[75%] md:w-1/2">
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
-                  src={s5}
+                  src={s6}
                   alt="About Us"
                 />
               </div>
