@@ -37,39 +37,15 @@ const Footer = () => {
           <p className="text-base font-bold tracking-wide text-gray-900">
             Contacts
           </p>
-          <div className="flex flex-col">
+          <div className="flex">
             <p className="mr-1 text-gray-800">Emails:</p>
-            <a
-              href="mailto:neha@eesol.in"
-              aria-label="Our email"
-              title="Our email"
-              className="transition-colors duration-300 ml-4 text-deep-purple-accent-400 hover:text-blue-700"
-            >
-              neha@eesol.in
-            </a>
             <a
               href="mailto:info@eesol.in"
               aria-label="Our email"
               title="Our email"
-              className="transition-colors duration-300 ml-4 text-deep-purple-accent-400 hover:text-blue-700"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-blue-700"
             >
               info@eesol.in
-            </a>
-            <a
-              href="mailto:marketing@eesol.in"
-              aria-label="Our email"
-              title="Our email"
-              className="transition-colors duration-300 ml-4 text-deep-purple-accent-400 hover:text-blue-700"
-            >
-              marketing@eesol.in
-            </a>
-            <a
-              href="mailto:sales@eesol.in"
-              aria-label="Our email"
-              title="Our email"
-              className="transition-colors duration-300 ml-4 text-deep-purple-accent-400 hover:text-blue-700"
-            >
-              sales@eesol.in
             </a>
           </div>
           <div className="flex">
