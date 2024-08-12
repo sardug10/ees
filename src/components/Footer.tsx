@@ -67,7 +67,7 @@ const Footer = () => {
               title="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              +91 8742950309
+              +91 93541 81312
             </a>
           </div>
           <div className="flex">
