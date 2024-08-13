@@ -62,7 +62,7 @@ const Footer = () => {
           <div className="flex">
             <p className="mr-1 text-gray-800">Mobile & WhatsApp:</p>
             <a
-              href="tel:+91 8742950309"
+              href="tel:+91 93541 81312"
               aria-label="Our phone"
               title="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
