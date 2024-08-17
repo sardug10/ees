@@ -4,6 +4,9 @@ import s3 from "../assets/images/s3.jpeg";
 import s4 from "../assets/images/s4.jpeg";
 import s5 from "../assets/images/s5.jpeg";
 import s6 from "../assets/images/s6.jpeg";
+import s7 from "../assets/images/s7.jpeg";
+import s8 from "../assets/images/s8.jpeg";
+import s9 from "../assets/images/s9.jpeg";
 
 const Services = () => {
   return (
@@ -120,6 +123,75 @@ const Services = () => {
                 <img
                   className="object-cover w-full rounded-lg shadow-md"
                   src={s6}
+                  alt="About Us"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-8 md:space-y-0 text-center md:text-left gap-16 md:space-x-8 md:justify-center md:flex md:items-center md:flex-row-reverse">
+              <div className="w-full md:w-1/2 space-y-4">
+                <h3 className="font-medium text-2xl">Hostesses</h3>
+                <p>
+                  Make your event memorable with our professional and engaging
+                  hostesses. Our team is skilled in creating a welcoming
+                  atmosphere and providing top-notch guest services. From
+                  greeting attendees and assisting with directions to managing
+                  check-ins and handling inquiries, our hostesses are trained to
+                  enhance every aspect of your event experience. With their
+                  exceptional communication skills and professional demeanor,
+                  they ensure that every guest feels valued and well-cared-for.
+                </p>
+              </div>
+              <div className="mx-auto w-[75%] md:w-1/2">
+                <img
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s7}
+                  alt="About Us"
+                />
+              </div>
+            </div>
+            <div className="space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
+              <div className="w-full md:w-1/2 space-y-4">
+                <h3 className="font-medium text-2xl">Event Registration</h3>
+                <p>
+                  Streamline your event registration process with our
+                  comprehensive registration services. We offer end-to-end
+                  solutions to handle all aspects of attendee registration,
+                  including online registration setup, on-site check-in, and
+                  badge printing. Our team ensures a smooth and efficient
+                  process, reducing wait times and enhancing the overall
+                  experience for your guests. We handle the administrative
+                  details so you can focus on delivering a successful event.
+                </p>
+              </div>
+              <div className="mx-auto w-[75%] md:w-1/2">
+                <img
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s8}
+                  alt="About Us"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-8 md:space-y-0 text-center md:text-left gap-16 md:space-x-8 md:justify-center md:flex md:items-center md:flex-row-reverse">
+              <div className="w-full md:w-1/2 space-y-4">
+                <h3 className="font-medium text-2xl">Product Launches</h3>
+                <p>
+                  Make a powerful impact with a flawless product launch. Our
+                  team specializes in orchestrating dynamic product launches
+                  that capture attention and drive excitement. From
+                  conceptualizing and planning the event to executing the launch
+                  with precision, we work closely with you to bring your vision
+                  to life. Whether you’re introducing a new product to the
+                  market or showcasing innovations to key stakeholders, our
+                  expertise ensures that your launch event is executed
+                  flawlessly and leaves a lasting impression.
+                </p>
+              </div>
+              <div className="mx-auto w-[75%] md:w-1/2">
+                <img
+                  className="object-cover w-full rounded-lg shadow-md"
+                  src={s9}
                   alt="About Us"
                 />
               </div>
