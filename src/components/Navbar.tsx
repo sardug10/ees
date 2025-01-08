@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/logo.png';
 
 type Link = {
   name: string;
@@ -39,7 +39,7 @@ const Nav = () => {
         <a href='/' className='flex items-center'>
           <img
             src={logo}
-            className='h-40 w-40 mr-3 ml-3'
+            className='h-20 w-50 ml-10'
             alt='Exhibition Excellence Solutions'
           />
         </a>

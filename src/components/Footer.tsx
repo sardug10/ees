@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/logo.png';
 
 const Footer = () => {
   return (
@@ -16,10 +16,7 @@ const Footer = () => {
             title='Company'
             className='inline-flex items-center'
           >
-            <img src={logo} alt='logo' className=' h-40 w-40' />
-            <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-              Exhibition Excellence Solutions
-            </span>
+            <img src={logo} alt='logo' className=' h-40 w-70 -ml-5' />
           </a>
           <div className='mt-6 lg:max-w-sm'>
             <p className='text-sm text-gray-800'>
