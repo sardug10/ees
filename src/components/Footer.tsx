@@ -1,81 +1,81 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
+import logo from '../assets/images/logo.jpg';
 
 const Footer = () => {
   return (
     <div
-      id="contact-us"
-      className="px-4 pt-16 border-t mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      id='contact-us'
+      className='px-4 pt-16 border-t mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'
     >
-      <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3">
-        {" "}
-        <div className="sm:col-span-2">
+      <div className='grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-3'>
+        {' '}
+        <div className='sm:col-span-2'>
           <a
-            href="/"
-            aria-label="Go home"
-            title="Company"
-            className="inline-flex items-center"
+            href='/'
+            aria-label='Go home'
+            title='Company'
+            className='inline-flex items-center'
           >
-            <img src={logo} alt="logo" className=" h-10" />
-            <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+            <img src={logo} alt='logo' className=' h-40 w-40' />
+            <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
               Exhibition Excellence Solutions
             </span>
           </a>
-          <div className="mt-6 lg:max-w-sm">
-            <p className="text-sm text-gray-800">
+          <div className='mt-6 lg:max-w-sm'>
+            <p className='text-sm text-gray-800'>
               At Exhibition Excellence Solutions, we are driven by a passion for
               perfection in every aspect of exhibition management.
             </p>
-            <p className="mt-4 text-sm text-gray-800">
+            <p className='mt-4 text-sm text-gray-800'>
               With a leadership team comprising trade fair veterans, we have the
               expertise and experience to navigate the intricate world of
               international exhibitions seamlessly
             </p>
           </div>
         </div>
-        <div className="space-y-2 text-sm">
-          <p className="text-base font-bold tracking-wide text-gray-900">
+        <div className='space-y-2 text-sm'>
+          <p className='text-base font-bold tracking-wide text-gray-900'>
             Contacts
           </p>
-          <div className="flex">
-            <p className="mr-1 text-gray-800">Emails:</p>
+          <div className='flex'>
+            <p className='mr-1 text-gray-800'>Emails:</p>
             <a
-              href="mailto:info@eesol.in"
-              aria-label="Our email"
-              title="Our email"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-blue-700"
+              href='mailto:info@eesol.in'
+              aria-label='Our email'
+              title='Our email'
+              className='transition-colors duration-300 text-deep-purple-accent-400 hover:text-blue-700'
             >
               info@eesol.in
             </a>
           </div>
-          <div className="flex">
-            <p className="mr-1 text-gray-800">Desk phone:</p>
+          <div className='flex'>
+            <p className='mr-1 text-gray-800'>Desk phone:</p>
             <a
-              href="tel:+91 129 4060309"
-              aria-label="Our phone"
-              title="Our phone"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              href='tel:+91 129 4060309'
+              aria-label='Our phone'
+              title='Our phone'
+              className='transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800'
             >
               +91 129 4060309
             </a>
           </div>
-          <div className="flex">
-            <p className="mr-1 text-gray-800">Mobile & WhatsApp:</p>
+          <div className='flex'>
+            <p className='mr-1 text-gray-800'>Mobile & WhatsApp:</p>
             <a
-              href="tel:+91 93541 81312"
-              aria-label="Our phone"
-              title="Our phone"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              href='tel:+91 93541 81312'
+              aria-label='Our phone'
+              title='Our phone'
+              className='transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800'
             >
               +91 93541 81312
             </a>
           </div>
-          <div className="flex">
-            <p className="mr-1 text-gray-800">Address:</p>
+          <div className='flex'>
+            <p className='mr-1 text-gray-800'>Address:</p>
             <button
-              aria-label="Our address"
-              title="Our address"
-              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              aria-label='Our address'
+              title='Our address'
+              className='transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800'
             >
               Faridabad, India
             </button>
@@ -118,8 +118,8 @@ const Footer = () => {
         {/*   </p> */}
         {/* </div> */}
       </div>
-      <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-        <p className="text-sm text-gray-600">
+      <div className='flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row'>
+        <p className='text-sm text-gray-600'>
           © Copyright 2024 EES. All rights reserved.
         </p>
         {/* <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row"> */}
